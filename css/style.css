@@ -9,6 +9,18 @@ header {
     width: 15%;
 }
 
-.highlight1{
+.highlight{
     background-color: rgba(251, 255, 22, 0.72);
+}
+
+th{
+
+}
+
+.rigaHead{
+    color: white;
+    background-color: rgb(56, 158, 219);
+}
+.rigaDispari{
+    background-color: rgb(175, 224, 238) ;
 }
