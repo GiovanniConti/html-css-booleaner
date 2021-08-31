@@ -29,6 +29,10 @@ h6{
     color: grey;
 }
 
+figure{
+    margin-inline-start: 0;
+}
+
 .didascalia{
     font-size: small;
 }
@@ -47,16 +51,15 @@ table{
 
 th{
     padding-right:50px;
+    color: white;
+    background-color: rgb(56, 158, 219);
+    text-align: left;
 }
 
 td{
     padding-right: 50px;
 }
 
-.rigaHead{
-    color: white;
-    background-color: rgb(56, 158, 219);
-}
 .rigaDispari{
     background-color: rgb(175, 224, 238) ;
 }
