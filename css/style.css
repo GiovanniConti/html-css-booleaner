@@ -2,19 +2,55 @@ header {
     height: 5em;
     background-color:rgb(77, 150, 247);
     background-image: url(../img/pattern.png);
-    background-size: 25%;
+    background-size: contain;
 }
 
 .logo{
-    width: 15%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+h4{
+    margin: 0;
+    color: grey;
+}
+
+.theBooleaner{
+    color: rgb(85, 189, 224);
+}
+
+h6{
+    margin: 0;
+    color: grey;
+}
+
+.didascalia{
+    font-size: small;
 }
 
 .highlight{
     background-color: rgba(251, 255, 22, 0.72);
 }
 
-th{
+.listaNonOrdinata{
+    padding-inline-start: 15px;
+}
 
+table{
+    border-spacing: 0;
+}
+
+th{
+    padding-right:50px;
+}
+
+td{
+    padding-right: 50px;
 }
 
 .rigaHead{
@@ -23,4 +59,26 @@ th{
 }
 .rigaDispari{
     background-color: rgb(175, 224, 238) ;
+}
+
+.footer1{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    height: 7em;
+    width: 10em;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer2{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    height: 7em;
+    width: 10em;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
